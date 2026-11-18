@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caucasus RolePlay — Форум</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#0d1117;
+ color:#e6edf3;
+ font-family:Arial,sans-serif;
+}
+header{
+ background:#111827;
+ padding:22px 7%;
+ border-bottom:1px solid #30363d;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+.logo{font-size:23px;font-weight:bold;color:#fff}
+.logo span{color:#d4a35b}
+nav a{
+ color:#c9d1d9;
+ text-decoration:none;
+ margin-left:18px;
+ font-size:14px;
+}
+.hero{
+ padding:75px 20px;
+ text-align:center;
+ background:linear-gradient(120deg,#171e2c,#292019);
+}
+.hero h1{font-size:38px;margin:0 0 15px}
+.hero p{color:#aab3c0}
+.btn{
+ display:inline-block;
+ margin-top:18px;
+ padding:13px 25px;
+ background:#a8783e;
+ color:white;
+ text-decoration:none;
+ border-radius:6px;
+ font-weight:bold;
+}
+.container{max-width:1050px;margin:35px auto;padding:0 16px}
+.heading{
+ font-size:21px;
+ border-bottom:1px solid #30363d;
+ padding-bottom:14px;
+}
+.category{
+ display:flex;
+ align-items:center;
+ gap:16px;
+ padding:20px;
+ margin:12px 0;
+ background:#161d27;
+ border:1px solid #30363d;
+ border-radius:8px;
+}
+.icon{font-size:30px}
+.category h3{margin:0 0 7px}
+.category p{margin:0;color:#8b949e;font-size:13px}
+footer{
+ text-align:center;
+ padding:30px;
+ color:#8b949e;
+ border-top:1px solid #30363d;
+ margin-top:50px;
+}
+@media(max-width:600px){
+ header{padding:18px;flex-wrap:wrap;gap:15px}
+ nav a{margin-left:10px}
+ .hero h1{font-size:29px}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">CAUCASUS <span>ROLEPLAY</span></div>
+ <nav>
+  <a href="#home">Главная</a>
+  <a href="#forum">Форум</a>
+  <a href="#about">О проекте</a>
+ </nav>
+</header>
+
+<section class="hero" id="home">
+ <h1>CAUCASUS ROLEPLAY</h1>
+ <p>Твоя история начинается здесь.</p>
+ <p>Добро пожаловать в мир кавказского ролевого проекта!</p>
+ <a href="#forum" class="btn">Перейти на форум</a>
+</section>
+
+<main class="container" id="forum">
+ <h2 class="heading">Форум проекта</h2>
+
+ <div class="category">
+  <div class="icon">📢</div>
+  <div>
+   <h3>Новости проекта</h3>
+   <p>Обновления, объявления и важные события</p>
+  </div>
+ </div>
+
+ <div class="category">
+  <div class="icon">📋</div>
+  <div>
+   <h3>Информация</h3>
+   <p>Правила проекта и полезные материалы</p>
+  </div>
+ </div>
+
+ <div class="category">
+  <div class="icon">👮</div>
+  <div>
+   <h3>Государственные организации</h3>
+   <p>Фракции, заявки и отчёты</p>
+  </div>
+ </div>
+
+ <div class="category">
+  <div class="icon">🏢</div>
+  <div>
+   <h3>Организации</h3>
+   <p>Бизнес, компании и объединения</p>
+  </div>
+ </div>
+
+ <div class="category">
+  <div class="icon">💬</div>
+  <div>
+   <h3>Общение</h3>
+   <p>Обсуждения и общение участников</p>
+  </div>
+ </div>
+</main>
+
+<footer id="about">
+ <p><b>CAUCASUS ROLEPLAY</b></p>
+ <p>Официальный форум игрового проекта</p>
+ <p>© 2026 Caucasus RolePlay</p>
+</footer>
+
+</body>
+</html>
